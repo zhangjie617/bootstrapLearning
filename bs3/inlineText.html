@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>基础模板</title>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <link href="felib/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="felib/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--
+高亮标记文本
+-->
+p>You can use the mark tag to <mark>highlight</mark> text.</p>
+
+<!--
+被删除的文本
+对于被删除的文本使用 <del> 标签。
+-->
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+
+<!--
+无用文本
+对于没用的文本使用 <s> 标签。
+-->
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+
+<!--
+插入文本
+额外插入的文本使用 <ins> 标签。
+-->
+<ins>This line of text is meant to be treated as an addition to the document.</ins>
+
+<!--
+带下划线的文本
+为文本添加下划线，使用 <u> 标签。
+-->
+<u>This line of text will render as underlined</u>
+
+<!--
+小号文本
+对于不需要强调的inline或block类型的文本，使用 <small> 标签包裹，其内的文本将被设置为父容器字体大小的 85%。标题元素中嵌套的 <small> 元素被设置不同的 font-size 。
+你还可以为行内元素赋予 .small 类以代替任何 <small> 元素。
+-->
+<small>This line of text is meant to be treated as fine print.</small>
+
+<!--
+着重
+通过增加 font-weight 值强调一段文本。
+-->
+
+
+<!--
+水平排列的描述
+
+.dl-horizontal 可以让 <dl> 内的短语及其描述排在一行。开始是像 <dl> 的默认样式堆叠在一起，随着导航条逐渐展开而排列在一行。
+-->
+<dl class="dl-horizontal">
+    <dt>...</dt>
+    <dd>...</dd>
+</dl>
+
+<!--
+自动截断
+通过 text-overflow 属性，水平排列的描述列表将会截断左侧太长的短语。在较窄的视口（viewport）内，列表将变为默认堆叠排列的布局方式。
+-->
+
+
+
+
+</body>
+</html>
